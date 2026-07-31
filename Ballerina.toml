@@ -1,3 +1,4 @@
 [workspace]
 title = "my-project"
 packages = ["test_private_pkg"]
+version = "0.1.0"
