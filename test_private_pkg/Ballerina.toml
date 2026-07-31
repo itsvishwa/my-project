@@ -1,0 +1,9 @@
+[package]
+org = "vishwa"
+name = "test_private_pkg"
+version = "0.1.0"
+distribution = "2201.13.4"
+title = "test-private-pkg"
+
+[build-options]
+sticky = true
