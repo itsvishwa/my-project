@@ -9,7 +9,7 @@ service / on httpDefaultListener {
     resource function get hello() returns json|error {
         do {
             log:printInfo("yooooo  new api called yessss!!!");
-            log:printInfo("yooooo yo");
+            log:printInfo("yooooo yo yooo");
             string greeting = hello:hello("Ballerina");
             io:println(greeting);
             return {
