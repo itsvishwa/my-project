@@ -8,7 +8,7 @@ listener http:Listener httpDefaultListener = http:getDefaultListener();
 service / on httpDefaultListener {
     resource function get hello() returns json|error {
         do {
-            log:printInfo("new api called!!!");
+            log:printInfo("new api called yessss!!!");
             string greeting = hello:hello("Ballerina");
             io:println(greeting);
             return {
